@@ -1,0 +1,12 @@
+{
+  "name": "NETATMO-TO-OVH-IOT",
+  "private": true,
+  "version": "0.0.1",
+  "description": "NodeJS script for update netatmo metrics to OVH OpenTSDB",
+  "author": "Florian Mauduit <flotix@linux.com>",
+  "dependencies": {
+    "netatmo": "latest",
+    "node-cron": "latest",
+    "request": "latest"
+  }
+}
