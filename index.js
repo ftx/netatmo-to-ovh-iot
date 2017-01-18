@@ -1,6 +1,7 @@
 var cron = require('node-cron');
 var netatmo = require('netatmo');
 var request = require("request");
+const util = require('util');
 
 //ENV Vars
 var login_ovh_iot 	= process.env.TOKEN_ID; 
