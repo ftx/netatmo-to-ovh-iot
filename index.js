@@ -75,7 +75,7 @@ function netdata(){
 	var n = m - 1;
 	var module_module	= devices[0]['modules'][n]['module_name']
 	var module_datas	= devices[0]['modules'][n]['data_type']
-	var module_battery	= devices[0]['modules'][n]['battery_percent']
+	var module_battery	= devices[0]['modules'][n]['battery_vp']
 	var module_signal	= devices[0]['modules'][n]['rf_status']
 	// WHILE
 	module_datas.forEach(function(x){
